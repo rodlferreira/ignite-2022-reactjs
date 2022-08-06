@@ -1282,6 +1282,11 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+n@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/n/-/n-9.0.0.tgz#0f57f3567d4e6721cbd62eec7972875fa69dfe84"
+  integrity sha512-OZie4DuAZASChFZnIkf5BYEYEhMe6utRTAWM+98aS6N0pRLNxcDEMwxSsy7is98zTlDICcQB2dym+u10pEOtBg==
+
 nanoid@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"

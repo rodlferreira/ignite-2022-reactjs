@@ -39,3 +39,4 @@ export default App
 # o próprio APP dentro do React é um componente, nada mais é do que uma função que retorna HTML
 # JSX => javascript + XML 
 # o "./" na importação serve para indicar que o arquivo está na mesma pasta;
+# O uso do css.module serve para escopar uma estilizaçao
