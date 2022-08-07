@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import { Header } from './components/Header'
+import { Sidebar } from './components/Sidebar'
 import { Post } from './Post'
 
 
@@ -15,9 +15,7 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <aside>
-          sidebbar
-        </aside>
+      <Sidebar />
         <main>
           <Post
             author="Rodriggo Ferreira"
