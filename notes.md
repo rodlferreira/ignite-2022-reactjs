@@ -40,3 +40,16 @@ export default App
 # JSX => javascript + XML 
 # o "./" na importação serve para indicar que o arquivo está na mesma pasta;
 # O uso do css.module serve para escopar uma estilizaçao
+
+# 
+// Componentização, visa desacoplar um pedaço da interface que pode
+// ser repetida várias vezes, inclusive com informações diferentes, 
+// isso tbm torna mais fácil de dar manutenção no código.
+
+//componente, nada mais é do que uma funcção que retorna um HTML
+//A componentização permite a reutilização de trechos do código, reaproveitando toda a estilização e estrutura criada
+
+
+
+//Named exports <Não usa o export default, fazendo com que o código não seja executado se o nome estiver escrito errado>
+# 
