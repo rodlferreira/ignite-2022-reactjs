@@ -15,15 +15,19 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-      <Sidebar />
+        <Sidebar />
         <main>
           <Post
             author="Rodriggo Ferreira"
-            
+
             content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Hic perferendis odit, ipsum sapiente magni nostrum commodi dolorum 
             nihil quibusdam voluptate ducimus dolorem repudiandae autem est quis 
             eius optio iusto in."
+          />
+
+          <Post author="Thor"
+          content="Que legal"
           />
         </main>
       </div>
