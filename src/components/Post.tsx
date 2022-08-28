@@ -1,7 +1,7 @@
 import styles from './Post.module.css';
 import meWithHelmet from '../assets/meWithHelmet.jpg';
 
-export function Post(_props: {author: string, content: string}) {
+export function Post(_props: { author: string, content: string }) {
     return (
         <article className={styles.post}>
             <header>
@@ -26,6 +26,14 @@ export function Post(_props: {author: string, content: string}) {
                     <a href="#"> #rocketseat</a>
                 </p>
             </div>
+
+            <form className={styles.commentForm}>
+                <strong>Deixe seu comentário</strong>
+                <textarea placeholder='Deixe um comentário'></textarea>
+                <footer>
+                    <button type="submit">Publicar</button>
+                </footer>
+            </form>
         </article>
     )
 }
