@@ -1,5 +1,6 @@
 import styles from './Post.module.css';
 import meWithHelmet from '../assets/meWithHelmet.jpg';
+import { Comment } from './Comment';
 
 export function Post(_props: { author: string, content: string }) {
     return (
@@ -34,6 +35,12 @@ export function Post(_props: { author: string, content: string }) {
                     <button type="submit">Publicar</button>
                 </footer>
             </form>
+
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+            </div>
         </article>
     )
 }
