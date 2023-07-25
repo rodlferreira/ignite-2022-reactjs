@@ -1,4 +1,4 @@
-# ignite-2022-reactjs
+# ignite-2022/2023-reactjs usando o Vite
 
 Start do Ignite em 2022
 
